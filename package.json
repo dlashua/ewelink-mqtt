@@ -1,0 +1,16 @@
+{
+  "name": "ewelink-mqtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Lashua",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "node-ewelink-cloud": "dlashua/node-ewelink-cloud",
+    "yargs": "^13.2.2"
+  }
+}
