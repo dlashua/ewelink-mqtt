@@ -31,7 +31,7 @@ client.on('message', (topic, message) => {
   // console.log("MQTT MESSAGE:", topic, message.toString())
 
   let pieces = topic.split('/');
-  a.setData(pieces[2],JSON.parse(message.toString()));
+  connecion.setData(pieces[2],JSON.parse(message.toString()));
 })
 
 // connection.on(/.*/,(event) => console.log("EMITTED EVENT:", event.type,event.data));
